@@ -1,0 +1,27 @@
+{
+    "name": "gr8tfl",
+    "version": "1.0",
+    "description": "Share your memories and create memory card.",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html#/add",
+        "default_icon": "assets/images/logo.png"
+    },
+    "permissions": [
+        "*://*/api/*",
+        "storage",
+        "tabs",
+        "notifications",
+        "contextMenus"
+    ],
+    "background": {
+        "scripts": ["assets/js/background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "19": "assets/images/logo.svg",
+        "38": "assets/images/logo.svg"
+    },
+    "web_accessible_resources": ["assets/images/logo.png"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

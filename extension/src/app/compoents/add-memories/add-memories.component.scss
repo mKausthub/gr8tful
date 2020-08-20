@@ -1,0 +1,59 @@
+.row img.icon {
+    padding: 5px;
+    min-height: 50px;
+    max-width: 15%;
+    width: 50px;
+}
+
+.add-more {
+    color: #707070;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.question {
+    font-size: 24px;
+    color: #707070;
+    width: 80%;
+    &:focus {
+        outline: none;
+    }
+}
+
+.question-success {
+    font-size: 24px;
+    color: #707070;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#answer-success {
+    display: none;
+}
+
+#submit-q {
+    display: block;
+}
+
+.row textarea {
+    width: 85%;
+    border: none;
+    margin-top: 10px;
+    border-bottom: 1px solid #070707;
+    padding: 15px;
+    font-size: 24px;
+    &:focus {
+        outline: none;
+    }
+}
+
+.add-new-btn {
+    color: #fff;
+    border: 1px solid #fff !important;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    right: 10px;
+}

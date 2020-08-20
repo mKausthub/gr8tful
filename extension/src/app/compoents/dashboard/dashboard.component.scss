@@ -1,0 +1,37 @@
+.container-fluid {
+    background: #00aa11;
+    min-width: 785px;
+    height: 100%;
+    width: 98vw;
+}
+
+.card {
+    margin: 20px auto;
+    padding: 20px;
+    color: #707070;
+    border-radius: 10px;
+}
+
+.card .time {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card .question {
+    font-size: 20px;
+}
+
+.card .answer {
+    font-size: 20px;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+.add-new-btn {
+    color: #fff;
+    border: 1px solid #fff !important;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    right: 10px;
+}

@@ -1,0 +1,30 @@
+<div [ngSwitch]="isSuccessPage" class="container-fluid">
+    <button [routerLink]="['/']" class="btn btn-success add-new-btn">Dashboard</button>
+    <div id="submit-q" class="col-sm-12 col-md-12 col-lg-12">
+        <div class="row">
+            <img (click)="refresh()" class="icon" src="../../../assets/images/refresh.svg">
+            <span class="question">
+                {{quesstion}}
+            </span>
+        </div>
+        <div class="row">
+            <textarea placeholder="Enter your answer here." [(ngModel)]="answer" rows="3"></textarea>
+            <img (click)="submitAnswer()" class="icon" src="../../../assets/images/plus.svg">
+        </div>
+    </div>
+
+    <div class="col-sm-12 col-md-12 col-lg-12" id="answer-success">
+        <div class="row">
+            <span class="question-success">
+                Good job :) You have answered {{count}} prompts in total!
+            </span>
+        </div>
+        <div class="text-center">
+            <p (click)="gotoSubmitAnswerPage()" class="add-more">Enter Another One!</p>
+        </div>
+
+        <div class="text-center">
+            <p (click)="openDashboard()" class="add-more">Dashboard</p>
+        </div>
+    </div>
+</div>

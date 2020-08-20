@@ -1,0 +1,6 @@
+{
+    "name": "Test Extension",
+    "description": "First google chrome extension using Angular",
+    "version": "1.0",
+    "manifest_version": 2
+}

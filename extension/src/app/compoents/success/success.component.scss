@@ -1,0 +1,31 @@
+.row {
+    display: flex;
+    align-content: space-between;
+}
+
+.icon {
+    width: 24px;
+}
+
+
+.question, .add-more {
+    font-size: 24px;
+    color: #707070;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.add-more {
+    margin: 30px auto 0;
+}
+.row img.icon {
+    width: 10%;
+    padding: 10px;
+}
+
+.row input {
+    width: 85%;
+    border: none;
+    border-bottom: 1px solid #070707;
+}

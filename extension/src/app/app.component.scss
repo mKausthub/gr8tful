@@ -1,0 +1,14 @@
+.logo {
+    width: 40px;
+    color: #fff
+}
+
+.header-sec {
+    display: flex;
+    flex-direction: column;
+    .text {
+        margin: 0 auto;
+        font-size: 24px;
+        padding: 5px;
+    }
+}
