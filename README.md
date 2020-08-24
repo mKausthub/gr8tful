@@ -6,11 +6,7 @@ Gr8tful is a chrome extension that enables people to practice gratitude. [Why?](
 ## Demo
 Extension:
 
-![Gr8tful Popup](./popup.JPG)
-
-Dashboard:
-
-![Gr8tful Dashboard](./dashboard.JPG)
+![Gr8tful Popup](./gr8tful-demo.gif)
 
 ## Built with
 - Angular
